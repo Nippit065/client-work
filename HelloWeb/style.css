@@ -65,10 +65,11 @@ nav {
 }
 
 .info .btn {
+    margin: 1rem;
     display: inline-block;
     background-color: orange;
     color: white;
-    padding: 1em;
+    padding: 0.5em;
     border-radius: 5px;
     text-decoration: none;
 }
