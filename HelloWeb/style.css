@@ -67,14 +67,14 @@ nav {
     display: inline-block;
     background-color: orange;
     color: white;
-    padding: 0.7em;
+    padding: 1em;
     border-radius: 5px;
     text-decoration: none;
 }
 
 .img img {
     width: 100%;
-    padding: 2rem;
+    padding: 2rem 0;
 }
 .blog-item img{
     width: 100%;
