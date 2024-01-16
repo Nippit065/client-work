@@ -1,0 +1,32 @@
+*{font-family: 'Vollkorn', serif;}
+html,body,h1{
+  margin: 0%;
+}
+
+h4, p {
+  margin: auto; 
+}
+h1,h3{
+  color: #C70000;
+}
+section {
+ border:  3px  solid #FFA8A8;
+ background-color: #F4E6E6;
+ margin-bottom:  1rem;
+ border-radius: 5px;
+ padding: 1rem;
+}
+
+span {
+  color: red;
+  font-weight: bold;
+}
+
+
+.container {
+  margin: 15% 25%;
+}
+
+div {
+  line-height: normal;
+}

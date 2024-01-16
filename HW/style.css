@@ -1,0 +1,17 @@
+html,body,h1 {
+  margin: 0%;
+}
+
+span {
+  color: red;
+  font-weight: bold;
+}
+
+
+.container {
+  margin: 15% 27%;
+}
+
+div {
+  line-height: normal;
+}

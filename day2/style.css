@@ -1,0 +1,41 @@
+* {
+    margin: 32px auto;
+
+}
+
+body {
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.container {
+    border: 12px solid green;
+    width: 80%;
+
+
+}
+
+section {
+    margin-left: 6%;
+    display: inline-block;
+    width: 40%;
+    border: 2px solid blueviolet;
+}
+
+h1 {
+    text-align: center;
+}
+
+.box1 {
+    width: 2em;
+    height: 2em;
+    background: red;
+    box-shadow: 2px 2px 2px;
+}
+
+.box2 {
+    margin-top: 1em;
+    width: 2em;
+    height: 2em;
+    background: blue;
+    box-shadow: 2px 2px 3px brown;
+}

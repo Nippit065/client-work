@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80vw;
+    height: 80vh;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* start left , center ,end right,space-beetween */
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box1 {
+    width: 8em;
+    height: 3em;
+    background: red;
+    flex-basis: 40px;
+}
+
+.box2 {
+    width: 8em;
+    height: 3em;
+    background: green;
+}
+
+.box3 {
+    width: 8em;
+    height: 3em;
+    background: blue;
+    flex-grow: 1;
+}
