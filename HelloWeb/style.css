@@ -78,12 +78,13 @@ nav {
 }
 .blog-item img{
     width: 100%;
-    /* padding: 2rem; */
+    padding: 1rem;
 }
 .blog-con{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
     column-gap: 2rem;
+    margin: 2rem;
 }
 .blog-title{
     margin: 2rem 0;
