@@ -1,0 +1,38 @@
+.container {
+    /* margin: 8px; */
+    width: 200px;
+    height: 200px;
+    /* top: 200px;
+    left: 200px; */
+    background: pink;
+    position: relative;
+    border-radius: 10px;
+    border: 2px dotted black;
+    box-shadow: 2px 5px 2px black;
+}
+
+.container-con {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+    height: 90vh;
+    list-style: none;
+}
+
+span {
+    margin: 0;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    top: 50%;
+}
+
+.box {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: 8px;
+    right: 7px;
+}
