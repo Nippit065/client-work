@@ -1,0 +1,188 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-con {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#header {
+
+    text-align: center;
+    margin-top: 258px;
+    flex-direction: column;
+
+}
+
+.menu {
+    margin: 0.7rem;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    position: absolute;
+
+}
+
+.menu li a {
+    font-size: 13px;
+    color: #000000;
+    text-decoration: none;
+    margin: 0 12px;
+}
+
+.menu li ab {
+    color: #000000;
+    margin: 0 8px;
+    display: inline-block;
+    background-color: #1a73e8ff;
+    color: white;
+    padding: 8px 21px;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+
+#search-bar {
+    width: 403px;
+    height: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    transform: translate(0, 40%);
+}
+
+.c2 {
+    display: flex;
+    justify-content: center;
+    height: 75px;
+    margin-top: 25px;
+}
+
+.searchs {
+    list-style: none;
+    display: flex;
+    transform: translate(-5%, -100%);
+    margin-bottom: 8px;
+
+}
+
+
+.nav2 {
+    height: 45px;
+    width: 36rem;
+    display: flex;
+    align-content: center;
+    border-radius: 50px;
+    box-shadow: 0px 0px 1.5px gray;
+    padding: 5px 8px 9 14px;
+}
+
+.texts {
+    transform: translate(0, 100%);
+}
+
+
+.iconk {
+    transform: translate(70%, 50%);
+}
+
+.iconm {
+    transform: translate(240%, 70%);
+}
+
+.iconc {
+    transform: translate(150%, 32%);
+}
+
+.center {
+    display: block;
+    text-align: center;
+    margin: 5px 4px;
+    padding: 0px 170px;
+    transform: translate(-20%, 0);
+
+
+}
+
+.center-con {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.box1 {
+    background: #f7f9faff;
+    padding: 8px 18px;
+    position: absolute;
+    font-size: 15px;
+    border-radius: 2px;
+    transform: translate(50%, 0);
+
+}
+
+.box2 {
+    background: #f7f9faff;
+    padding: 8px 18px;
+    position: absolute;
+    font-size: 15px;
+    border-radius: 2px;
+    transform: translate(-60%, 0);
+
+}
+
+.def li {
+    font-size: 13px;
+    text-decoration: none;
+    margin: 0 5px;
+}
+.condef{
+    height: 60px;
+}
+.def {
+    margin: 0rem;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    position: absolute;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.def li a {
+    text-decoration: none;
+}
+
+
+.def li {
+    font-size: 13px;
+    margin: 0 5px;
+}
+
+.show {
+    margin: 0rem;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    position: absolute;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.show li a {
+    text-decoration: none;
+}
+
+.show li {
+    font-size: 13px;
+    margin: 0 5px;
+}

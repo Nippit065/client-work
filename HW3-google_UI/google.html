@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Google-clone</title>
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <div class="nav-con">
+                <ul class="menu">
+                    <li><a href="#">Gmail</a></li>
+                    <li><a href="#">ค้นรูป</a></li>
+                    <li><a href="#"><svg width="21px" height="25px" xmlns="http://www.w3.org/2000/svg" id="dots-nine">
+                                <rect fill="none"></rect>
+                                <circle cx="3" cy="10" r="1.8"></circle>
+                                <circle cx="9" cy="10" r="1.8"></circle>
+                                <circle cx="15" cy="10" r="1.8"></circle>
+                                <circle cx="3" cy="15.5" r="1.8"></circle>
+                                <circle cx="9" cy="15.5" r="1.8"></circle>
+                                <circle cx="15" cy="15.5" r="1.8"></circle>
+                                <circle cx="3" cy="21" r="1.8"></circle>
+                                <circle cx="9" cy="21" r="1.8"></circle>
+                                <circle cx="15" cy="21" r="1.8"></circle>
+                            </svg></a></li>
+                    <li>
+                        <ab href="#" class="btn">เข้าสู่ระบบ</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <div id="header">
+        <!-- Google Logo -->
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+            alt="Your Google Logo">
+    </div><!-- Search Bar  -->
+    <nav>
+        <div class="c2">
+            <div class="nav2">
+                <ul class="searchs">
+                    <li>
+                        <div class="texts">
+                            <img src="https://cdn.icon-icons.com/icons2/494/PNG/512/magnifier_icon-icons.com_48267.png"
+                                alt="" width="15" height="15">
+                        </div>
+                    </li>
+                    <li>
+                        <form action="https://www.google.com/search" method="GET">
+                            <input type="text" id="search-bar" name="q" aria-label="Search" required>
+                        </form>
+                    </li>
+                    <li>
+                        <div class="iconk"><img width="21" height="25"
+                                src="https://www.iconarchive.com/download/i107835/google/noto-emoji-objects/62829-keyboard.1024.png"
+                                alt="">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="iconm"><img width="14" height="20"
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/1200px-Google_mic.svg.png"
+                                alt="">
+                        </div>
+                    </li>
+                    <li>
+                        <div class="iconc"><img width="32" height="30"
+                                src="data:image/png;base64,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"
+                                alt="">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="center-con">
+        <div class="center">
+            <div class="box1">ค้นหาด้วย Google</div>
+        </div>
+        <div class="center">
+            <div class="box2">ดีใจจัง ค้นแล้วเจอเลย</div>
+
+        </div>
+    </div>
+    <div class="condef">
+        <ul class="def">
+            <li><img width="30px" src="https://www.google.com/images/hpp/swg-gshield-logo-rgb-64px.png" alt=""></li>
+            <li>
+                <p>วันแห่งอินเทอร์เน็ตอย่างปลอดภัย</p>
+            </li>
+            <li><a href="#">เรียนรู้วิธีใช้อินเตอร์เน็ตให้ปลอดภัยมากขึ้น</a></li>
+        </ul>
+    </div>
+    <div class="conshow">
+        <ul class="show">
+            <li>
+                <p>แสดง Google ใน:</p>
+            </li>
+            <li><a href="#">English</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>
