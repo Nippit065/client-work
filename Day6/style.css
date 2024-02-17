@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    border: 2px solid black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid green; */
+    background: linear-gradient(to right, grey, white);
+}
+
+
+nav>.logo {
+    margin: 0.8em;
+}
+
+nav>.menu {
+    /* visibility: hidden; */
+    display: none;
+}
+
+nav>.ham {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    /* border: 1px solid black; */
+
+}
+
+nav>.menu>a {
+    margin: 0.3em;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+
+}
+
+nav>.ham>.line {
+    width: 28px;
+    height: 4px;
+    background: black;
+    /* box-shadow: 0px 6px black,
+        0 6px black; */
+    border-radius: 10px;
+}
+
+article {
+    font-size: 0.7rem;
+    padding: 1rem;
+    margin: 1em;
+    box-shadow: 2px 2px 3px black;
+}
+
+article>h1 {
+    font-size: 1rem;
+}
+
+article>.box {
+    font-size: 0.6rem;
+    background: grey;
+    padding: 1em;
+}
+
+main {
+    width: (90%, 900px);
+    margin-inline: auto;
+}
+
+footer {
+    text-align: center;
+    background: linear-gradient(to right, white, blue);
+}
+
+.popup {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5em 0;
+    position: fixed;
+    top: 10px;
+    right: 0.5%;
+    background: white;
+    width: 30%;
+    border: 1px solid black;
+}
+
+.popup>a {
+    margin: 0.4em;
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 1rem;
+}
+
+.popup>button {
+    background: linear-gradient(to right, white, yellow);
+}
+
+@media screen and (min-width: 298px) {
+    nav>.ham {
+        display: none;
+    }
+
+    nav>.menu {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 40%;
+        margin: 2px;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+    }
+}
+
+@media screen and (min-width: 600px) {
+    main {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+    }
+
+}
