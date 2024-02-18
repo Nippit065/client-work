@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    background: #000;
+    font-family: 'Niagara Solid', sans-serif;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 150px 45% 38% 170px;
+    justify-content: space-between;
+    grid-template-areas:
+        'LHSBlurr LHS LHS RHS RHS RHSNum'
+        'LHSBlurr LHS LHS RHS RHS RHSNum'
+        'LHSBlurr LHS LHS RHS RHS RHSNum';
+    /* border: 2px solid #98a6d9ff */
+}
+
+.RHSBlurr {
+    background-color: #0c0e0fff;
+}
+
+h1 {
+    font-size: 150px;
+    color: #BA181B;
+}
+
+.LHS {
+    margin-top: 140px;
+    margin-left: 140px;
+}
+
+.con {
+    margin-top: 15px;
+    width: 50%;
+    transform: translate(-80px);
+}
+
+.icon {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+
+}
+
+.RHSNum {
+    background-color: #0c0e0fff;
+}
+
+.RHSNum h1 {
+    background-color: #15191cff;
+    display: flex;
+    justify-content: center;
+}
+
+.RHS {
+    object-fit: cover;
+
+}
+
+.logo {
+    margin-top: 50px;
+}
+
+input[type=text] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #333333ff;
+    color: #676262;
+    font-size: 30px;
+    font-family: 'Big Shoulders Text', sans-serif;
+}
+
+textarea[type=textm] {
+    width: 80%;
+    height: 150px;
+    margin: 8px 0;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: none;
+    color: #676262;
+    border-bottom: 1px solid #333333ff;
+    font-size: 30px;
+    font-family: 'Big Shoulders Text', sans-serif;
+}
+
+button {
+    border: none;
+    width: 57px;
+    height: 42px;
+    font-family: 'Big Shoulders Text', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #CA6702;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.button:active {
+    transform: translateY(2px);
+}
