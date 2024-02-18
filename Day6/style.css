@@ -127,3 +127,6 @@ footer {
     }
 
 }
+nav>.hide {
+    display: none;
+}

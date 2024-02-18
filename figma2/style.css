@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {}
+
+p {
+    width: 100%;
+    height: 48px;
+    text-align: center;
+    color: white;
+    background: #333333ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    border-bottom: 2px solid grey;
+    height: 80px;
+}
+
+
+nav>.logo {
+    margin: 0.8em;
+    display: none;
+}
+
+nav>.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 25%;
+    margin: 2px;
+}
+
+nav>.ham {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    height: 70px;
+}
+
+nav>.logo>a {
+    margin: 0.5em;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+
+}
+
+nav>.ham>.line {
+    width: 10px;
+    height: 1px;
+    background-color: black;
+    border-radius: 12px;
+    margin: 1px 15px;
+    transform: translate(0,12px);
+}
+
+nav>.ham>.left {
+    transform: translate(35px);
+}
+nav>footer>.line {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+main {
+    width: (90%, 900px);
+    margin-inline: auto;
+}
+
+.popup {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5em 0;
+    position: fixed;
+    top: 50px;
+    left: 1%;
+    background: linear-gradient(to top, white, #dbcebdff);
+    width: 30%;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.popup>a {
+    margin: 0.4em;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.popup>button {
+    background: linear-gradient(to top, white, #dbcebdff);
+    border-radius: 0 0 20px 20px;
+}
+
+@media screen and (min-width: 430px) {
+    nav>.ham {
+        display: none;
+    }
+    nav>.logo {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 60%;
+        margin: 2px;
+    }
+
+}
+
+@media screen and (min-width: 750px) {
+    nav>.logo {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 35%;
+        margin: 2px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    nav>.logo {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 25%;
+        margin: 2px;
+    }
+
+}
+
+@media screen and (max-width: 430px) {
+.menu>.hide {
+    display: none;
+    
+}
+.menu>.left {
+    display: none;
+    
+}
+}
