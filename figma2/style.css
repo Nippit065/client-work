@@ -13,7 +13,12 @@ p {
     align-items: center;
     justify-content: center;
 }
-
+.logoc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(0,45px);
+}
 
 nav {
     display: flex;
@@ -120,7 +125,7 @@ main {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        width: 60%;
+        width: 25%;
         margin: 2px;
     }
 
